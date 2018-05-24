@@ -22,14 +22,7 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [
-        "../../login-form/dist/login-form/runtime.js",
-        "../../login-form/dist/login-form/polyfills.js",
-        "../../login-form/dist/login-form/styles.js",
-        "../../login-form/dist/login-form/scripts.js",
-        "../../login-form/dist/login-form/vendor.js",
-        "../../login-form/dist/login-form/main.js"
-      ],
+      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

@@ -816,23 +816,6 @@ module.exports = {
   },
   "plugins": [
     new NoEmitOnErrorsPlugin(),
-    new ConcatPlugin({
-      "uglify": false,
-      "sourceMap": true,
-      "name": "scripts",
-      "fileName": "[name].bundle.js",
-      "filesToConcat": [
-        "../login-form/dist/login-form/runtime.js",
-        "../login-form/dist/login-form/polyfills.js",
-        "../login-form/dist/login-form/styles.js",
-        "../login-form/dist/login-form/scripts.js",
-        "../login-form/dist/login-form/vendor.js",
-        "../login-form/dist/login-form/main.js"
-      ]
-    }),
-    new InsertConcatAssetsWebpackPlugin([
-      "scripts"
-    ]),
     new CopyWebpackPlugin([
       {
         "context": "src",
