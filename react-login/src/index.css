@@ -1,0 +1,40 @@
+loginForm {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input-container:not(:first-child) {
+  margin-top: 5px;
+}
+
+.input-container label {
+  flex: 1;
+}
+
+button.primary {
+  background: rebeccapurple;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+button.primary:disabled {
+  opacity: 0.5;
+}
+
+button.primary:hover:not(:disabled) {
+  background: royalblue;
+}
+
+button.primary:active {
+  border: 2px solid rebeccapurple;
+}
